@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2G Phone — Android Accessibility demonstration</title>
+<style>body{font:16px system-ui;max-width:800px;margin:32px auto;padding:0 20px;line-height:1.6}video{width:100%;max-height:75vh;background:#111}</style>
+<h1>2G Phone: Accessibility Service demonstration</h1>
+<p>Android version 1.0.0 (3). Actual QA-device recordings, at normal speed, joined between the permission flow and the core-feature flow. No login is needed.</p>
+<video controls preload="metadata" playsinline src="2g-phone-accessibility-v3.mp4"></video>
+<p><a href="2g-phone-accessibility-v3.mp4">Open or download the MP4</a></p>
+<h2>What the video shows</h2>
+<ol>
+<li>App opening and the app-blocking permission screen.</li>
+<li>The full prominent disclosure, choosing “Not now”, and opening the disclosure again.</li>
+<li>Affirmative consent, Android Accessibility settings, the system permission dialog, and return to the app showing “Allowed”.</li>
+<li>Core feature: Chrome has been selected for blocking. Opening Chrome redirects to 2G Phone. “Quick use” lists Chrome and explains a five-minute elapsed-time exception.</li>
+</ol>
+<p>The service detects only the foreground application's package identity locally. It does not retrieve screen text, input, screenshots, or perform gestures. Selected packages, local redirect counts and quick-use deadlines are not sent to a server. Users can turn the service off in Android Accessibility settings at any time. 2G Phone is a focus app, not a disability-assistance accessibility tool.</p>
+<p><a href="privacy.html">Privacy policy</a> · <a href="index.html">Support</a></p>
+</html>
