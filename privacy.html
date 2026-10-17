@@ -8,7 +8,7 @@
 </head><body><main>
 <p><a href="index.html">Support</a></p>
 <h1>Privacy Policy</h1>
-<p>Last updated: October 2, 2026</p>
+<p>Last updated: October 17, 2026</p>
 <p>This policy covers the Android closed-test builds of Paper Alarm (<code>com.gguggulab.paperalarm</code>), 2G Phone, Rise &amp; Stretch, Sunrise Lock, Shrimp Stretch, Squad Roast, Bedtime Face, Belly Steps, Partner Talk, Nag Alarm, Desk Tidy Score, Thirsty Pot, Same Angle, Body Tap Stretch, Moment Stretch, Scroll Age and Koa, published by GgugguLab. These apps do not require an account.</p>
 <h2>Local app data</h2>
 <p>Preferences, schedules, progress, streaks, scores and other app state are stored locally on the device. GgugguLab does not operate a cloud account or cloud backup service for these closed-test builds. Removing an app can remove its local data.</p>
@@ -16,6 +16,10 @@
 <p>Only apps whose tested feature needs them request the corresponding Android permission. Camera or selected-photo content is processed on the device for the relevant test flow and is not uploaded to a GgugguLab server. Step, activity, sleep or health information is accessed only after the user grants the relevant permission; unavailable Android ports do not substitute fabricated data. Do not send photos or health information in support email.</p>
 <h2>Alarms and notifications</h2>
 <p>Apps with reminder or alarm flows may schedule alarms or notifications on the device after permission is granted. Testers can revoke these permissions in Android Settings. Test builds may have documented platform limitations.</p>
+<h2>2G Phone app blocking and Accessibility Service</h2>
+<p>New Android versions of 2G Phone offer optional app blocking through an Accessibility Service. Before opening Android Accessibility settings, the app explains the feature and asks for your agreement. If you enable the service yourself, it observes the package name of the app you open to identify apps you selected for blocking. During an active blocking period, opening a selected app is redirected to the home screen and 2G Phone. It does not read screen text, typed messages or screenshots and does not perform automated taps or gestures. This is a digital wellbeing feature, not an accessibility tool for people with disabilities.</p>
+<p>Your selected app identifiers, blocking schedule, local redirect count, temporary quick-use deadline and daily quick-use count stay on the device and are not sent to GgugguLab, advertisers or analytics services. The app only lists launchable apps needed for selection, rather than requesting access to all installed packages. Android quick use expires after five minutes of elapsed time, including time spent outside that app; redirect counts are not a measurement of screen time or time saved. These settings and counters may be removed with Android's Clear storage action or by uninstalling the app. Android cloud backup is disabled for 2G Phone.</p>
+<p>You can turn off 2G mode inside the app or disable its service in Android Accessibility settings at any time. Settings, emergency calling, the launcher and other essential system components are not intended blocking targets. The app does not prevent you from disabling the service or uninstalling it. Device restrictions, force stop or a disabled service can prevent blocking; this is not an unbreakable lock.</p>
 <h2>Advertising and analytics</h2>
 <p>Advertising requests and ad display are disabled in the Android builds covered by this policy. The Google Mobile Ads package may remain bundled while the draft is prepared, but the Android runtime removes its automatic initialization provider and does not initialize or request ads. These builds do not add new analytics services. If a later build enables advertising or analytics, this policy and the Play Data safety declaration will be updated before that build is distributed.</p>
 <h2>Support messages and hosting</h2>
